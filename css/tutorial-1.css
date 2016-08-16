@@ -1,0 +1,35 @@
+
+.gist {
+  max-width: 70%%;
+  margin-left: 2%;
+}
+
+.progress-bar {
+  max-height: 12px;
+  border-style: solid;
+  border-color: #272727;
+  border-width: 1px;
+  border-radius: 5%;
+  max-width: 50%;
+  background: green;
+  background-size: 10%;
+  padding: 0.3em;
+  margin-left: 4%;
+}
+
+.progress-bar.half {
+  background: linear-gradient(-90deg, white 50%, green 50%);
+}
+
+.progress-bar.good  {
+    background: linear-gradient(-90deg, white 25%, green 5%);
+}
+
+.progress-bar.bad {
+    background: linear-gradient(-90deg, white 75%, red 5%);
+    margin: 10px 0 10px 4%;
+}
+
+.progress-bar.ugly {
+    background: linear-gradient(-90deg, purple 33%, orange 5%);
+}

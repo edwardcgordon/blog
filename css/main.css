@@ -1,0 +1,87 @@
+/*-- Element level styles --*/
+body {
+  font-family: 'Roboto', serif;
+  background: #fff;
+  margin: 0;
+  text-decoration: none;
+}
+
+section {
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 2% 0;
+}
+
+
+/*-- Content Layout --*/
+
+.content {
+  position: relative;
+}
+
+.side-nav {
+  float: left;
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  background: #4d6571;
+}
+
+.main-content {
+  margin: 0 0 0 30%;
+  display: block;
+}
+
+.blog-header {
+  margin: 16em auto;
+}
+
+.section-list {
+  display: inline-block;
+}
+
+/*-- Blog link button --*/
+.link-item {
+  margin: 5% 0;
+  padding: 0 15px;
+  border-style: solid;
+  border-width: 0 0 0 10px;
+  border-color: #4d6571;
+  display: block;
+}
+
+/*-- Sizes --*/
+
+.main-content h1 {
+  font-size: 2em;
+}
+
+/*-- Colors --*/
+.side-nav a {
+  color: #ffeb3b;
+}
+
+.link-item a, .link-item a:visited {
+  color: #4d6571;
+  display: block;
+}
+
+.link-item:hover {
+  border-color: #FFF176;
+}
