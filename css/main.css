@@ -120,24 +120,27 @@ p {
 
     .side-nav {
       /* float: left; */
-      position: static;;
+      position: fixed;
       height: auto;
       width: 100%;
       text-align: center;
       background: #4d6571;
       padding: 10% 0;
       margin: 0 0 2%;
+      opacity: 0.9;
     }
 
     .main-content {
-      width: 90%;
+      width: 95%;
       display: block;
-      float: none;;
+      float: none;
       margin: 0 0 0 3%;
+      padding: 25% 0;
     }
 
     .blog-header {
       margin: auto;
+      /* position: fixed; */
     }
 
     .section-list {
