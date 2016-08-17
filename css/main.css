@@ -17,7 +17,6 @@ h1, h2 {
 h1 {
   font-size: 1.5em;
   margin: 0;
-  display: inline;
 }
 
 a {
@@ -95,4 +94,45 @@ p {
 
 .link-item:hover .title-tagline {
     color: #ffeb3b;
+}
+
+/*-- Mobile breakpoint --*/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    h1 {
+      display: inline-flex;;
+      flex-direction: column;
+      margin-left: 10px;
+    }
+    .content {
+      position: relative;
+    }
+
+    .side-nav {
+      /* float: left; */
+      position: static;;
+      height: auto;
+      width: 100%;
+      text-align: center;
+      background: #4d6571;
+      padding: 10% 0;
+      margin: 0 0 2%;
+    }
+
+    .main-content {
+      width: 90%;
+      display: block;
+      float: none;;
+      margin: 0 0 0 3%;
+    }
+
+    .blog-header {
+      margin: auto;
+    }
+
+    .section-list {
+      display: inline-block;
+    }
+
 }
