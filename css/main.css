@@ -52,7 +52,7 @@ p {
 }
 
 .blog-header {
-  margin: 16em auto;
+  margin: 90% auto;
 }
 
 .section-list {
@@ -81,7 +81,7 @@ p {
 }
 
 .link-item a, .link-item a:visited {
-  color: #4d6571;
+  color: #0c0c0c;
   display: block;
 }
 
@@ -89,6 +89,10 @@ p {
   border-color: #FFF176;
 }
 
-.title-tagline h1 {
-  color: blue;
+.title-tagline {
+  margin-left: 5px;
+}
+
+.link-item:hover .title-tagline {
+    color: #ffeb3b;
 }
