@@ -1,7 +1,7 @@
 /*-- Element level styles --*/
 body {
   font-family: 'Roboto', serif;
-  background: #fff;
+  background: #EEEEEE;
   margin: 0;
   text-decoration: none;
 }
@@ -57,6 +57,10 @@ p {
 
 .section-list {
   display: inline-block;
+}
+
+.tutorial {
+  margin-bottom: 30px;
 }
 
 /*-- Blog link button --*/
@@ -120,22 +124,21 @@ p {
 
     .side-nav {
       /* float: left; */
-      position: fixed;
+      position: static;
       height: auto;
       width: 100%;
       text-align: center;
       background: #4d6571;
-      padding: 10% 0;
-      margin: 0 0 2%;
-      opacity: 0.9;
+      padding: 4% 0;
+      margin: auto;
     }
 
     .main-content {
-      width: 95%;
+      width: 96%;
       display: block;
       float: none;
       margin: 0 0 0 3%;
-      padding: 30% 0;
+      /* padding: 30% 0; */
     }
 
     .blog-header {
