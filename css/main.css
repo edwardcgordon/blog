@@ -25,6 +25,7 @@ a {
 
 p {
   margin: 2% 0;
+  line-height: 1.5em;
 }
 
 
@@ -74,13 +75,23 @@ p {
   font-size: 2em;
 }
 
+.tutorial h1 {
+  font-size: 3em;
+  margin: 5% 0 0 0;
+  color: #424242;
+}
+
+.tutorial h2 {
+  color: #E91E63;
+}
+
 /*-- Colors --*/
 .side-nav a {
   color: #ffeb3b;
 }
 
 .link-item a, .link-item a:visited {
-  color: #0c0c0c;
+  color: #424242;
   display: block;
 }
 
@@ -88,9 +99,6 @@ p {
   border-color: #FFF176;
 }
 
-.title-tagline {
-  margin-left: 5px;
-}
 
 .link-item:hover .title-tagline {
     color: #ffeb3b;
